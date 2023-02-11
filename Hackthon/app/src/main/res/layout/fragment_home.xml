@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeFragment"
+    android:orientation="vertical"
+    >
+
+        <EditText
+            android:layout_width="390dp"
+            android:layout_height="48dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/border"
+            android:drawableLeft="@drawable/ic_baseline_search_24"
+            android:drawablePadding="8dp"
+            android:hint=" Search for the product name you want"
+            android:inputType="text" />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="23dp"
+            android:src="@drawable/tabbar2"
+            />
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+
+                            >
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical"
+                                    android:layout_marginTop="49dp">
+                                        <ImageView
+                                            android:id="@+id/detail1"
+                                            android:layout_width="154.67dp"
+                                            android:layout_height="140.35dp"
+                                            android:layout_marginLeft="20dp"
+                                            android:src="@drawable/rectangle1"
+                                            />
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="Polo Ralph lauren Shirt"
+                                            android:textStyle="bold"
+                                            android:textSize="13.37sp"
+                                            android:layout_marginLeft="20dp"
+                                            android:layout_marginTop="11.46dp"
+                                            />
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="3$ per month"
+                                            android:textSize="9.55sp"
+                                            android:textColor="#929292"
+                                            android:layout_marginLeft="20dp"
+                                            android:layout_marginTop="4.19dp"
+                                            />
+                                        <ImageView
+                                            android:layout_width="47.1dp"
+                                            android:layout_height="16.73dp"
+                                            android:src="@drawable/normal"
+                                            android:layout_marginLeft="20dp"
+                                            android:layout_marginTop="9.86dp"
+                                            />
+
+
+                                </LinearLayout>
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical"
+                                    android:layout_marginTop="49dp"
+                                    android:layout_marginLeft="10.33dp">
+                                        <ImageView
+                                            android:layout_width="154.67dp"
+                                            android:layout_height="140.35dp"
+                                            android:layout_marginLeft="20dp"
+                                            android:src="@drawable/rectangle2"
+                                            />
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="Mardi Mercredi Velo"
+                                            android:textStyle="bold"
+                                            android:textSize="13.37sp"
+                                            android:layout_marginLeft="20dp"
+                                            android:layout_marginTop="11.46dp"
+                                            />
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="3$ per month"
+                                            android:textSize="9.55sp"
+                                            android:textColor="#929292"
+                                            android:layout_marginLeft="20dp"
+                                            android:layout_marginTop="4.19dp"
+                                            />
+                                        <ImageView
+                                            android:layout_width="47.1dp"
+                                            android:layout_height="16.73dp"
+                                            android:src="@drawable/perfect"
+                                            android:layout_marginLeft="20dp"
+                                            android:layout_marginTop="9.86dp"
+                                            />
+
+
+                                </LinearLayout>
+
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+
+                            >
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical"
+                                    android:layout_marginTop="49dp">
+                                        <ImageView
+                                            android:layout_width="154.67dp"
+                                            android:layout_height="140.35dp"
+                                            android:layout_marginLeft="20dp"
+                                            android:src="@drawable/rectangle1"
+                                            />
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="Polo Ralph lauren Shirt"
+                                            android:textStyle="bold"
+                                            android:textSize="13.37sp"
+                                            android:layout_marginLeft="20dp"
+                                            android:layout_marginTop="11.46dp"
+                                            />
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="3$ per month"
+                                            android:textSize="9.55sp"
+                                            android:textColor="#929292"
+                                            android:layout_marginLeft="20dp"
+                                            android:layout_marginTop="4.19dp"
+                                            />
+                                        <ImageView
+                                            android:layout_width="47.1dp"
+                                            android:layout_height="16.73dp"
+                                            android:src="@drawable/normal"
+                                            android:layout_marginLeft="20dp"
+                                            android:layout_marginTop="9.86dp"
+                                            />
+
+
+                                </LinearLayout>
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical"
+                                    android:layout_marginTop="49dp"
+                                    android:layout_marginLeft="10.33dp">
+                                        <ImageView
+                                            android:layout_width="154.67dp"
+                                            android:layout_height="140.35dp"
+                                            android:layout_marginLeft="20dp"
+                                            android:src="@drawable/rectangle2"
+                                            />
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="Mardi Mercredi Velo"
+                                            android:textStyle="bold"
+                                            android:textSize="13.37sp"
+                                            android:layout_marginLeft="20dp"
+                                            android:layout_marginTop="11.46dp"
+                                            />
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="3$ per month"
+                                            android:textSize="9.55sp"
+                                            android:textColor="#929292"
+                                            android:layout_marginLeft="20dp"
+                                            android:layout_marginTop="4.19dp"
+                                            />
+                                        <ImageView
+                                            android:layout_width="47.1dp"
+                                            android:layout_height="16.73dp"
+                                            android:src="@drawable/perfect"
+                                            android:layout_marginLeft="20dp"
+                                            android:layout_marginTop="9.86dp"
+                                            />
+
+
+                                </LinearLayout>
+
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+
+                            >
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical"
+                                    android:layout_marginTop="49dp">
+                                        <ImageView
+                                            android:layout_width="154.67dp"
+                                            android:layout_height="140.35dp"
+                                            android:layout_marginLeft="20dp"
+                                            android:src="@drawable/rectangle1"
+                                            />
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="Polo Ralph lauren Shirt"
+                                            android:textStyle="bold"
+                                            android:textSize="13.37sp"
+                                            android:layout_marginLeft="20dp"
+                                            android:layout_marginTop="11.46dp"
+                                            />
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="3$ per month"
+                                            android:textSize="9.55sp"
+                                            android:textColor="#929292"
+                                            android:layout_marginLeft="20dp"
+                                            android:layout_marginTop="4.19dp"
+                                            />
+                                        <ImageView
+                                            android:layout_width="47.1dp"
+                                            android:layout_height="16.73dp"
+                                            android:src="@drawable/normal"
+                                            android:layout_marginLeft="20dp"
+                                            android:layout_marginTop="9.86dp"
+                                            />
+
+
+                                </LinearLayout>
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical"
+                                    android:layout_marginTop="49dp"
+                                    android:layout_marginLeft="10.33dp">
+                                        <ImageView
+                                            android:layout_width="154.67dp"
+                                            android:layout_height="140.35dp"
+                                            android:layout_marginLeft="20dp"
+                                            android:src="@drawable/rectangle2"
+                                            />
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="Mardi Mercredi Velo"
+                                            android:textStyle="bold"
+                                            android:textSize="13.37sp"
+                                            android:layout_marginLeft="20dp"
+                                            android:layout_marginTop="11.46dp"
+                                            />
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="3$ per month"
+                                            android:textSize="9.55sp"
+                                            android:textColor="#929292"
+                                            android:layout_marginLeft="20dp"
+                                            android:layout_marginTop="4.19dp"
+                                            />
+                                        <ImageView
+                                            android:layout_width="47.1dp"
+                                            android:layout_height="16.73dp"
+                                            android:src="@drawable/perfect"
+                                            android:layout_marginLeft="20dp"
+                                            android:layout_marginTop="9.86dp"
+                                            />
+
+
+                                </LinearLayout>
+
+
+                        </LinearLayout>
+                </LinearLayout>
+
+        </ScrollView>
+
+
+</LinearLayout>
