@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "883642731423",
-    "project_id": "clothesbridge-28ebe",
-    "storage_bucket": "clothesbridge-28ebe.appspot.com"
+    "project_number": "1063173306588",
+    "project_id": "clothes-bridge",
+    "storage_bucket": "clothes-bridge.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:883642731423:android:a52d5e39f15d804f0f4baa",
+        "mobilesdk_app_id": "1:1063173306588:android:0ef908231ca10a129bdc19",
         "android_client_info": {
           "package_name": "org.techtown.clothesbridge"
         }
       },
       "oauth_client": [
         {
-          "client_id": "883642731423-gavtqhqd6qvupu6rceugkmcqej1529fp.apps.googleusercontent.com",
+          "client_id": "1063173306588-jh3nbdfht2cknctg7nkcdrm97njojght.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCWvqXDM78dU451FdjdhhIJ_kVGKol8334"
+          "current_key": "AIzaSyCsZUH43wlRr3H0YdjiswLL32aiiAhUECM"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "883642731423-gavtqhqd6qvupu6rceugkmcqej1529fp.apps.googleusercontent.com",
+              "client_id": "1063173306588-jh3nbdfht2cknctg7nkcdrm97njojght.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
